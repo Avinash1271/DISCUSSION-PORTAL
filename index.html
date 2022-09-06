@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="discussion">
+      <h1 id="heading">Discussion Portal</h1>
+      <div class="main">
+        <div class="left">
+          <button id="btn1" onclick="newQuesForm()">New question form</button>
+          <input type="search" id="search" placeholder="search questions..."><br><br>
+          <div id="verticalline"></div>
+          <div id="store">
+            
+          </div>
+        </div>
+        <div class="right" id="right">
+
+          <div class="rightInner" id="rightInner">
+            <h1>Welcome to Discussion Portal!</h1>
+            <p>Enter a subject and question to get started</p>
+            <input type="text" placeholder="subject" id="inputsubject"><br><br>
+            <textarea id="inputquestion" rows="10" cols="60" placeholder="question"></textarea><br><br>
+            <button id="submit" onclick="addItemToLocal()">submit</button>
+          </div>
+
+          <div style="display:none;" id="QuesAndResContainer">
+            <div>
+              <h4 id="style">Question</h4>
+              <div id="Store_Ques_sub">
+                <div><b id="storedivSub"> </b></div>
+                <span id="storespanQues">  </span>
+                <hr>
+              </div>
+              <button id="submit" onclick="delet()">Resolve</button>
+            </div>
+            <div>
+              <div id="responseDiv">
+                <h4 id="style">Response</h4>
+                <div id="resList">response list goes here...</div>
+              </div>
+              <h4 id="style">Add Response</h4>
+              <input type="text" placeholder="Enter Name" id="inputname"><br><br>
+              <textarea id="inputcomment" rows="3" cols="55" placeholder="Enter Comment"></textarea><br><br>
+              <button id="submit" onclick="submitResponse()">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
