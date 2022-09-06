@@ -1,0 +1,96 @@
+#heading{
+  color: white;
+  background-color: #239170;
+  margin-top: 0;
+}
+h1{
+  font-family: sans-serif;
+}
+.discussion{
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+  /* margin: 5% 15%; */
+  background-color: #eee;
+}
+.main{
+  display: flex;
+  justify-content: space-around;
+}
+/* .right{
+  margin-left: 10%;
+  position: absolute;
+} */
+.verticalline {
+  border-left: 1px solid gray;
+  height: 200px;
+}
+#store{
+  background-color: rgb(233, 233, 233);
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+}
+#Store_Ques_sub{
+  background-color: rgb(233, 233, 233);
+  height: auto;
+  width: 100%;
+  border: 1px solid transparent;
+}
+#inputsubject{
+  outline: none;
+}
+#search{
+  outline: none;
+}
+#inputquestion{
+  outline: none;
+}
+#submit{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+  margin-left: 88%;
+  cursor: pointer;
+}
+
+#btn1{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+  cursor: pointer;
+}
+#storediv{
+  color: #343a40;
+  margin-left: 2%;
+  font-family: sans-serif;
+}
+#storespan{
+  color: #343a40;
+  margin-left: 2%;
+  font-family: sans-serif;
+}
+.gayeb{
+  cursor: pointer;
+}
+#Resolve{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+  margin-left: 80%;
+  cursor: pointer;
+}
+#style{
+  color: rgb(155, 153, 153);
+  font-family: sans-serif;
+}
+#resDiv{
+  border: 1px solid transparent;
+  background-color: rgb(233, 233, 233);
+}
